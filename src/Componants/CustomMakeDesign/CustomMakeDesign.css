@@ -1,0 +1,81 @@
+.custommakedesignimg1 {
+    width: 25vw;
+    /* padding: 0px 50px 0px 50px; */
+
+}
+
+.custommakedesignimg2 {
+
+    width: 17vw;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    /* padding: 0px 50px 0px 50px; */
+
+}
+
+.custommakedesignimg3 {
+
+    width: 17vw;
+    /* padding: 0px 50px 0px 50px; */
+
+}
+
+.custommakedesignimg22 {
+    width: 40%;
+    display: grid;
+}
+
+.custommakedesignimg11 {
+    width: 60%;
+    margin-right: 15px;
+}
+
+.custommakedesigntext {
+    padding: 0px 50px 0px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mainidealcustom {
+    margin: 70px 70px 0px 70px;
+}
+
+.customheadingdesign {
+    /* font-size: 30px; */
+}
+
+.customparagrahpdesign {
+    font-size: 16px;
+}
+
+.threeimagessmd {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    display: none;
+}
+
+@media screen and (max-width: 500px) and (max-height: 812px) {
+    .custommakedesigntext {
+        padding: 0px 20px 0px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .mainidealcustom {
+        margin: 30px 20px 0px 20px;
+    }
+
+    .custommakedesignimg {
+        padding: 0px 30px 0px 30px;
+        height: auto;
+    }
+
+    .custommakedesignimg00 {
+        margin-top: 20px;
+    }
+}

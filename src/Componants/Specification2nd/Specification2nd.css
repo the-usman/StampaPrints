@@ -1,0 +1,104 @@
+.Specification2ndh2 {
+    color: #15555F;
+    font-family: Anek Gurmukhi;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* padding: 20px 60px 10px 60px; */
+}
+
+.Specification2ndp {
+    color: #28354C;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    /* padding: 0px 60px 10px 60px; */
+}
+
+
+
+.foriconspicification {
+    width: 41%;
+}
+
+.imgforeditss {
+    width: 30vw;
+    /* height: 67vh; */
+}
+
+.imgforeditsss {
+    align-self: center;
+
+}
+
+.s3forheight {
+    margin: 30px 0px 0px 0px;
+}
+
+.foriconspicificationicon1 {
+    justify-content: center;
+    display: flex;
+}
+
+.foriconspicification1 {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .Specification2ndh2 {
+        color: #15555F;
+        font-family: Anek Gurmukhi;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        /* padding: 20px 60px 10px 60px; */
+    }
+
+    .Specification2ndp {
+        color: #28354C;
+        text-align: justify;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 0px;
+        /* padding: 0px 60px 10px 60px; */
+    }
+
+    .especification2ndall {
+        padding: 0px;
+    }
+
+    .s3forheight {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .wholespecification2ndall {
+        padding: 30px 30px 0px 30px;
+    }
+
+    .foriconspicification {
+        display: none;
+    }
+
+    .foriconspicification1 {
+        display: block;
+    }
+
+    .imgforeditss {
+        width: 80vw;
+        /* height: 0vh; */
+    }
+
+    .imgforeditsss {
+        display: flex;
+        justify-content: center;
+
+    }
+}

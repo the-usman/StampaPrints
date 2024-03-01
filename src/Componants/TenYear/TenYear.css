@@ -1,0 +1,42 @@
+.tenyearcol2 img {
+    width: 400px;
+}
+
+.tenyearcol1img img {
+    height: 390px;
+}
+
+.wholetenyear {
+    padding-top: 80px;
+}
+
+.ParagraphH2Ptenyear {
+    font-size: 16px;
+}
+
+.mainHeadingH2tenyear {
+    font-size: 32px;
+}
+
+@media screen and (max-width: 500px) {
+    .wholetenyear {
+        padding: 30px 30px 0px 30px;
+    }
+
+    .tenyearcol1img img {
+        padding-bottom: 20px;
+    }
+
+    .tenyearcol2 img {
+        width: 300px;
+        padding-bottom: 30px;
+    }
+
+    .ParagraphH2Ptenyear {
+        font-size: 12px;
+    }
+
+    .mainHeadingH2tenyear {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,13 @@
+.wholecbcallservicessampling {
+    margin-top: 80px;
+    padding: 0px 50px;
+}
+
+@media screen and (max-width: 500px) {
+
+
+    .wholecbcallservicessampling {
+        margin-top: 80px;
+        padding: 0px 30px;
+    }
+}

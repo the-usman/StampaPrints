@@ -1,0 +1,212 @@
+/* .content {
+    width: 50vw;
+} */
+
+.cardfortabex1 {
+    height: 354px;
+    width: 220px;
+    margin-left: 23px;
+    /* overflow: scroll; */
+
+}
+
+.tabex1image img {
+    height: 200px;
+    width: 220px;
+    border-radius: 15px;
+}
+
+.tabex1image1 img {
+    height: 200px;
+    width: 220px;
+    border-radius: 15px;
+}
+
+.headingforcard {
+    color: #15555F;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px 10px 5px 10px;
+    text-align: center;
+}
+
+.heading1forcard {
+    color: #7B7B7B;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0px 10px 0px 10px !important;
+    text-align: center;
+}
+
+.tabexbuttonstyle {
+
+    width: 228px;
+    background-color: #549376;
+    border-radius: 15px;
+    height: 300px;
+
+}
+
+.Paragraphtabex1 {
+    font-size: 11px !important;
+
+}
+
+.maintabexforoption {
+
+    display: flex;
+    width: 94vw;
+    margin: 0px auto 10px auto;
+
+    /* padding-bottom: 50px; */
+}
+
+.maintext1tabex h4 {
+    font-size: 20px;
+
+}
+
+.completetabex {
+    margin-top: 80px;
+}
+
+.containerInTabEx {
+    width: 94vw;
+    display: flex;
+    margin: auto;
+    /* overflow: scroll; */
+}
+
+.content {
+    width: 80vw;
+}
+
+.tabextext {
+    padding: 0px 250px 30px 250px;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) and (max-height: 812px) {
+    /* .tabexbuttonstyle {
+
+        width: 228px;
+        background-color: #549376;
+        border-radius: 15px;
+        height: 354px;
+        padding: 10px 0px;
+    } */
+
+    .maintabexforoption {
+        /* display: 'flex', width: "94vw", margin: "10px auto 40px auto" */
+        /* display: block; */
+        /* width: 94vw; */
+        /* margin: 10px auto 10px auto; */
+        /* display: block !important; */
+    }
+
+    .content {
+        transition: all 0.3s ease 0s;
+        display: flex;
+        overflow: scroll !important;
+        z-index: 10;
+        width: 266px;
+        scrollbar-width: thin;
+        scrollbar-color: transparent transparent;
+    }
+
+    content::-webkit-scrollbar-track {
+        background-color: transparent !important;
+    }
+
+    content::-webkit-scrollbar-thumb {
+        background-color: transparent;
+    }
+
+
+
+    /* .tabexbuttonstyle {
+
+        width: 44vw;
+        flex-direction: row;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        margin: 30px 0px 0px 0px;
+    } */
+
+    .containerInTabEx {
+        width: 94vw;
+        /* margin: 0px 30px; */
+    }
+
+    /* .maintabexforoption {
+        display: flex;
+        width: 94vw;
+        margin: 10px auto 10px auto;
+    } */
+
+    .cardfortabex1 {
+        height: 200px;
+        width: 150px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+
+    }
+
+
+    .completetabex {
+        margin-top: 30px;
+    }
+
+    .tabextext {
+        padding: 0px 30px 0px 30px;
+        text-align: center;
+    }
+
+    .tabex1image img {
+        height: 150px;
+        width: 137px;
+        border-radius: 15px;
+    }
+
+    .tabex1image1 img {
+        height: 150px;
+        width: 137px;
+        border-radius: 15px;
+    }
+
+    .maintext1tabex p {
+        display: none;
+    }
+
+    .maintext1tabex h4 {
+        padding: 10px 0px;
+        font-size: 16px;
+    }
+
+    .ParagraphH3P {
+        color: #7b7b7b;
+        font-size: 12px !important;
+        font-family: 'Poppins';
+
+    }
+}
+
+@media screen and (max-width: 1050px) and (max-height: 812px) {
+    .tabextext {
+        padding: 0px 50px 0px 50px;
+        text-align: center;
+    }
+}

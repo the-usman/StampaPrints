@@ -1,0 +1,50 @@
+.formfororder1get {
+    border-radius: 10px;
+    background: #9bc194;
+}
+
+.formfororder1h2 {
+    color: white;
+    padding: 10px 0px;
+    font-family: 'Anek Gurmukhi';
+    font-weight: 500;
+
+}
+
+
+
+.formforinputget::placeholder {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: "Anek Gurmukhi";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.wholegetintouch {
+    margin-top: 80px;
+}
+
+.containeriswhole {
+    width: 70%;
+}
+
+@media screen and (max-width: 500px) {
+    .wholegetintouch {
+        margin-top: 30px;
+    }
+
+    .containeriswhole {
+        width: 90%;
+    }
+
+    .formforinputget::placeholder {
+        color: rgba(0, 0, 0, 0.30);
+        font-family: "Anek Gurmukhi";
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .formforinputget1 {
+        margin-bottom: 15px;
+    }
+}

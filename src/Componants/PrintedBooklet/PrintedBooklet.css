@@ -1,0 +1,41 @@
+.headingforbooklet {
+    color: #15555F;
+    font-family: "Anek Gurmukhi";
+
+}
+
+.heading1forcardonlybooklet {
+
+    font-family: Poppins;
+
+    font-style: normal;
+    font-weight: 300;
+}
+
+.imgheightprintvooklet {
+    padding-right: 50px;
+}
+
+.imgheightprintvooklet1 img {
+    height: 317px;
+}
+
+.headingforbookletall {
+    padding: 5px 25px 10px 70px;
+}
+
+@media screen and (max-width: 500px) {
+    .imgheightprintvooklet1 img {
+        height: 230px;
+    }
+
+    .imgheightprintvooklet {
+        padding-right: 0px;
+    }
+
+    .headingforbookletall {
+        padding: 5px 30px 10px 30px;
+    }
+
+
+}

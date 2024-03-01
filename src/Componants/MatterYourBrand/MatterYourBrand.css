@@ -1,0 +1,53 @@
+.WholeMatterYourBrand {
+    margin-top: 80px;
+}
+
+.matteryourtext1 {
+    margin-top: 20px;
+
+}
+
+.matteryourtext1 h5 {
+    font-size: 19px;
+
+}
+
+.matteryourtext1 p {
+    font-size: 14px;
+
+}
+
+.matteryourtext2 p {
+    font-size: 14px;
+
+}
+
+.matteryourtext2 h5 {
+    font-size: 19px;
+
+}
+
+.matteryourtext2 {
+    margin-top: 30px;
+}
+
+.matteryourtext {
+    align-self: center;
+    padding: 0px 40px 0px 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .WholeMatterYourBrand {
+        padding: 10px 20px 0px 20px;
+        margin-top: 0px;
+    }
+
+    .matteryourtext {
+        align-self: center;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .matteryourtext2 {
+        margin-top: 10px;
+    }
+}

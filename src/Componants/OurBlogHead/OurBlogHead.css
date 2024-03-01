@@ -1,0 +1,14 @@
+.OurBlogHeadtext {
+    background: linear-gradient(90deg, #134E5E 0%, #71B280 100%);
+    width: 100%;
+    height: 200px;
+    color: #FFF;
+    font-family: Anek Gurmukhi;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

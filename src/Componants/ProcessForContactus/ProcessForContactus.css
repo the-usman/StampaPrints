@@ -1,0 +1,121 @@
+.danda img {
+    margin-top: -190px;
+}
+
+.imgforproces img {
+    height: 100px;
+}
+
+.forbigtextproceshd {
+    font-size: 16px;
+    font-weight: 600;
+    color: #15555f;
+
+
+}
+
+.formobiletextprcess {
+    font-size: 12px;
+    font-weight: 400;
+    color: #7b7b7b;
+}
+
+.forsmallscreen {
+    display: none;
+    /* Show on small screens */
+}
+
+.forbigscreencu {
+    display: block;
+    margin-top: 180px;
+}
+
+.forbigscreencutext {
+    padding: 0px 80px;
+}
+
+@media screen and (max-width: 500px) and (max-height: 812px) {
+    .forbigscreencu {
+        display: none;
+        /* Show on small screens */
+    }
+
+    .forsmallscreen {
+        display: block;
+        /* Hide on small screens */
+    }
+
+    .danda img {
+        display: none;
+    }
+
+    .formobiletexttt {
+        margin: 10px 10px 10px 10px;
+        font-size: 12px;
+    }
+
+    .formobiletexthed {
+        color: #15555f;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .row-cols-sm-1 {
+        column-count: 2;
+    }
+
+    .imgforproces {
+        height: 100px;
+    }
+
+    .mainprocess {
+        padding: 20px 20px 20px 20px;
+    }
+}
+
+
+/* @media screen and (max-width: 500px) and (max-height: 812px) {
+    .responsiveRow {
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+    }
+
+    .forbigscreen {
+        display: none;
+    
+    }
+
+    .forsmallscreen {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+
+    }
+
+    .danda img {
+        display: none;
+    }
+
+    .formobiletexttt {
+        margin: 10px 10px 10px 10px;
+        font-size: 17px;
+    }
+
+    .formobiletexthed {
+        font-weight: 600;
+        font-size: 18;
+    }
+
+    .row-cols-sm-1 {
+        column-count: 1;
+    }
+
+    .imgforproces {
+        height: 200px;
+        width: 250px;
+    }
+
+    .mainprocess {
+        padding: 20px 20px 20px 20px;
+    }
+} */

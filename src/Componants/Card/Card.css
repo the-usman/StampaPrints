@@ -1,0 +1,266 @@
+.card_bg {
+    border-radius: 15px;
+    /* border: 0.5px solid #F2ECDC; */
+    background: #F6F6F6;
+    box-shadow: 0 4px 10px rgb(58, 119, 108, 0.25);
+    margin: 10px;
+}
+
+
+
+.main_card {
+    padding: 10px 0 10px 0px;
+    display: flex;
+}
+
+.main_card img {
+    /* width: 180px; */
+    padding: 2px;
+    /* height: 210px; */
+    border-radius: 10px;
+}
+
+.headingforcard {
+    /* color: #15555F; */
+    /* font-family: Poppins; */
+    font-size: 40px !important;
+    padding: 50px 150px 0px 150px;
+    text-align: center;
+}
+
+.heading1forcardonly {
+    /* color: #7B7B7B; */
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 0px 180px 30px 180px !important;
+    /* padding: 0px 250px !important; */
+}
+
+.changetext {
+    font-size: 30px;
+}
+
+/* .changetext1head {
+    font-size: 20px;
+    font-weight: 600;
+} */
+
+.changetext1 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.changetext2 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.cardbg1 {
+    margin-left: 190px !important;
+}
+
+
+
+/* .cardhoverbig {
+    transition: all 1s ease-out;
+    background-color: white;
+}
+
+.cardhoverbig:hover {
+    transition: all 1s ease;
+    cursor: pointer;
+    /* color: #15555F; */
+/* border: solid #15555F; */
+/* padding: 2px; */
+/* } */
+
+/* .fordflex {
+    display: flex;
+} */
+.fordflexcard {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Create a 2-column grid */
+    gap: 20px;
+    /* Add some spacing between cards */
+}
+
+.card {
+    background: #fff;
+    /* Define the card background color */
+    border: 1px solid #ddd;
+    /* Add a border to the card */
+    padding: 20px;
+    /* Add padding to the card content */
+}
+
+.cardforbigscreen {
+    display: block;
+    margin-top: 80px;
+}
+
+.cardforsmallscreen {
+    display: none;
+}
+
+
+@media screen and (max-width: 500px) and (max-height: 812px) {
+    .cardforbigscreen {
+        display: none;
+    }
+
+    .cardforsmallscreen {
+        display: block;
+        margin-top: 30px;
+
+    }
+
+    .fordflexcard img {
+        height: 30vh;
+        width: 80vw;
+    }
+
+    .row2 {
+
+        height: 55vh;
+        width: 40vw;
+    }
+
+    .headingforcard {
+        color: #15555F;
+        font-family: Poppins;
+        font-size: 24px !important;
+        font-weight: 600;
+        line-height: normal;
+        padding: 10px 10px 5px 10px;
+        text-align: center;
+    }
+
+    .heading1forcardonly {
+        /* color: #7B7B7B; */
+        text-align: center;
+        /* font-family: Poppins; */
+        /* font-size: 12px; */
+        font-style: normal;
+        /* font-weight: 500; */
+        /* line-height: normal; */
+        padding: 0px 10px 0px 10px !important;
+        text-align: center;
+    }
+
+    /* .maincardmb {
+        display: flex;
+    } */
+    .main_card {
+        padding: 10px 0 10px 0px;
+        /* display: flex; */
+    }
+
+    .fordflexcard {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .changetext1head {
+        font-size: 18px !important;
+        font-weight: 600;
+        text-align: center;
+        color: #15555f;
+    }
+
+
+    .changetext2 {
+        font-size: 12px !important;
+        font-weight: 600;
+        text-align: center;
+        text-align: justify;
+        color: #28354c;
+    }
+
+    .main_card img {
+        /* width: 212px; */
+        padding: 2px;
+        /* height: 210px; */
+        border-radius: 10px;
+    }
+
+}
+
+@media screen and (max-width: 800px) and (max-height: 812px) {
+    .cardforbigscreen {
+        display: none;
+    }
+
+    .cardforsmallscreen {
+        display: block;
+    }
+
+    .headingforcard {
+        color: #15555F;
+        font-family: Poppins;
+        font-size: 22px !important;
+        font-weight: 600;
+        line-height: normal;
+        padding: 10px 10px 5px 10px;
+        text-align: center;
+    }
+
+    .heading1forcardonly {
+        color: #7B7B7B;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 0px 10px 0px 10px !important;
+        text-align: center;
+    }
+
+    .main_card {
+        padding: 10px 0 10px 0px;
+        /* display: flex; */
+    }
+
+    .fordflexcard {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .changetext1head {
+        font-size: 18px !important;
+        font-weight: 600;
+        text-align: center;
+        color: #15555f;
+    }
+
+
+    .changetext2 {
+        font-size: 12px !important;
+        font-weight: 600;
+        text-align: center;
+        text-align: justify;
+        color: #28354c;
+    }
+
+    .main_card img {
+        /* width: 212px; */
+        padding: 2px;
+        /* height: 210px; */
+        border-radius: 10px;
+    }
+
+}

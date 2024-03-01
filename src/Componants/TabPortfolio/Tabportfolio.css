@@ -1,0 +1,440 @@
+.animationClass {
+    animation-name: opacityAni;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.maintabproduct {
+    margin-top: 80px;
+}
+
+@keyframes opacityAni {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.mainHeadingtabproduct {
+    color: #15555f;
+    font-family: 'Anek Gurmukhi';
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    margin-top: 80px;
+}
+
+.Tabproductfirst {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.Tabproductfirstparagraph {
+    color: #28354C;
+    font-size: 11px;
+    font-family: 'Poppins';
+    padding: 0px 5px;
+    text-align: justify;
+}
+
+.Tabproductfirstheading {
+    padding-left: 5px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.completecoltabproduct {
+
+    width: 300px;
+    height: 360px;
+    padding: 0px;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+}
+
+.Tabproductsec {
+
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 77vw;
+    margin: 0px auto;
+}
+
+.Tabproductsecparagraph {
+    color: #38483E;
+    font-family: Poppins;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 400;
+    padding: 10px 0px 0px 0px;
+}
+
+.Tabproductsecparagraph span {
+    font-weight: 600;
+    color: #15555F;
+}
+
+.Tabproductthird {
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px !important;
+    width: 77vw;
+    margin: 0px auto;
+}
+
+.Tabproductthirdparagraph {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D7E6D4;
+    color: #28354C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+.Tabproductthirdparagraph i {
+    color: #3A776C;
+}
+
+.Tabproductthirdparagraph1 i {
+    color: #3A776C;
+}
+
+.Tabproductthirdparagraph1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F6F6F6;
+    color: #28354C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.Tabproductfourth {
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px !important;
+    width: 77vw;
+    margin: 0px auto;
+}
+
+.Tabproductfourthparagraph {
+    background-color: #D7E6D4;
+    color: #28354C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Tabproductfourthparagraph1 {
+    background-color: #F6F6F6;
+    color: #28354C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.Tabproductfourthheading {
+    color: #15555F;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.Tabproductfifth {
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px !important;
+    width: 77vw;
+    margin: 0px auto;
+}
+
+.Tabproductfifthheadingtext1 {
+    color: #15555F;
+    font-size: 18px;
+    font-family: 'Anek Gurmukhi';
+    font-weight: 500;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.Tabproductfifthcols {
+    background-color: #D7E6D4;
+    color: #28354C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+.Tabproductfifthcols1 {
+    background-color: #F6F6F6;
+    color: #28354C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+.changeforoptionprint {
+    background-color: #f6f6f6;
+    height: 185px;
+    width: 190px;
+    padding: 0px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+
+.Tabproductfifthtext1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #15555F;
+    font-family: "Anek Gurmukhi";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Tabproductfifthheadingtext11 {
+    font-weight: 500;
+    color: #15555F;
+    font-family: "Anek Gurmukhi";
+    font-size: 20px;
+}
+
+.forscrolltabproduct {
+    height: 500px;
+    border-bottom: 1px solid #C4C4C4;
+    overflow: auto;
+}
+
+.completecoltabproduct1 {
+    margin-right: 48px;
+}
+
+.changeforimage11 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1 {
+    grid-row: 1/3;
+}
+
+.item1 img {
+    width: 26.5vw;
+    height: auto;
+}
+
+
+.item2 img {
+    width: 26.5vw;
+    height: auto;
+}
+
+.item3 img {
+    width: 26.5vw;
+    height: auto;
+}
+
+.item4 img {
+    width: 26.5vw;
+    height: auto;
+}
+
+.item5 {
+    grid-area: 2 / 3 / 4 / 4;
+}
+
+.item5 img {
+    width: 26.5vw;
+    height: auto;
+}
+
+.item6 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item6 img {
+    width: 54vw;
+    height: auto;
+}
+
+.grid-container {
+    display: grid;
+    width: 100vw;
+    height: 680px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 12px;
+    column-gap: 12px;
+    padding: 20px 120px;
+}
+
+.alltabportfolioall1 {
+    display: none;
+}
+
+
+@media (max-width: 500px) {
+    .alltabportfolioall {
+        display: none;
+    }
+
+    .alltabportfolioall1 {
+        display: block;
+    }
+
+    .item1 img {
+        height: 31vh;
+        width: 39vw;
+    }
+
+
+    .item2 img {
+        height: 20vh;
+        width: 45vw;
+    }
+
+    .item3 img {
+        width: 45vw;
+        height: 20vh;
+    }
+
+    .item4 img {
+        width: 45vw;
+        height: 20vh;
+    }
+
+    .item5 img {
+        height: 30vh;
+        width: 39vw;
+
+    }
+
+    .item6 img {
+        height: 17vh;
+        width: 86vw;
+    }
+
+
+    .grid-container1 {
+        /* display: grid; */
+        /* width: 70vw; */
+        /* height: 680px; */
+        /* grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 12px;
+        column-gap: 12px; */
+        padding: 20px 30px;
+    }
+
+    .Tabproductfirstrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+
+    }
+
+    .maintabproduct {
+        margin-top: 30px;
+    }
+
+    .ButtonGroup {
+        /* flex-wrap: wrap; */
+        padding: 10px 0px !important;
+        width: 90vw !important;
+        overflow: scroll;
+        display: flex;
+    }
+
+    .completecoltabproduct1 {
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+
+    .Tabproductfifthcols2 {
+        margin-top: 0px !important;
+        font-size: 10px;
+        padding: 2px 4px;
+    }
+
+    .changeforimage11 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .changeforoptionprint {
+        background-color: #f6f6f6;
+        height: 185px;
+        width: 190px;
+        padding: 0px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .mainHeadingtabproduct {
+        color: #15555f;
+        font-family: 'Anek Gurmukhi';
+        font-weight: 400;
+        font-size: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+}

@@ -1,0 +1,74 @@
+.headingforbooklet {
+    color: #15555F;
+    font-family: "Anek Gurmukhi";
+
+}
+
+.heading1forcardonlybooklet {
+
+
+
+    font-style: normal;
+    font-weight: 300;
+}
+
+.imgheightprintvooklet {
+    padding-right: 50px;
+}
+
+.imgheightprintengagment img {
+    height: 450px;
+}
+
+.headingforengamrntall {
+
+    padding: 50px 0px 0px 13px;
+}
+
+.mainidealengagment {
+    padding: 0px 50px;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .imgheightprintvooklet img {
+        height: 280px;
+    }
+
+    .imgheightprintvooklet {
+        padding-right: 0px;
+    }
+
+    .headingforbookletall {
+        padding: 5px 30px 10px 30px;
+    }
+
+    .headingforbooklet {
+        color: #15555F;
+        font-family: "Anek Gurmukhi";
+        font-size: 28px !important;
+    }
+
+    .heading1forcardonlybooklet {
+        color: #7B7B7B;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+    }
+
+    .headingforengamrntall {
+
+        padding: 0px 0px 0px 0px;
+    }
+
+    .mainidealengagment {
+        padding: 0px 30px;
+    }
+
+    .imgheightprintengagment img {
+        height: auto;
+    }
+
+}

@@ -1,0 +1,128 @@
+/* Accordion.css */
+
+.qnaforcomplete {
+  margin-top: 80px !important;
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+.accordion-item {
+
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.fortextsize {
+  border: 1px solid #3A776C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  user-select: none;
+  background-color: #F6F6F6;
+  border-radius: 5px;
+}
+
+.accordion-toggle {
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.accordion-content {
+  padding: 10px;
+  display: none;
+  border: 1px solid #3A776C;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 2px;
+}
+
+.accordion-button:focus,
+.accordion-button:active {
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.acordiankadata {
+  padding-bottom: 30px;
+}
+
+.accordion-item.active .accordion-content {
+  display: block;
+}
+
+.fortextsize h3 {
+  font-size: 16px;
+  color: #28354C;
+  font-family: "Anek Gurmukhi";
+  padding-top: 30px;
+}
+
+.qnaheading {
+  color: #15555F;
+  text-align: center;
+  padding-top: 30px;
+
+}
+
+.qndp {
+  color: #7B7B7B;
+  text-align: center;
+}
+
+.qnaforcomplete {
+
+  /* margin-bottom: 60px; */
+  margin-top: 60px;
+}
+
+
+
+@media screen and (max-width: 500px) and (max-height: 812px) {
+  .fortextsize h3 {
+    font-size: 12px;
+    color: #28354C;
+  }
+
+  .acordiankadata {
+    padding-bottom: 20px;
+  }
+
+  .qnaheading {
+    font-size: 22px;
+    /* font-weight: 600; */
+    color: #15555F;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .qndp {
+    font-size: 14px;
+    color: #7B7B7B;
+    text-align: center;
+  }
+
+  .accordion-toggle {
+    font-size: 12px;
+  }
+
+
+
+  .qnaforcomplete {
+    width: 85%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0000001a;
+    margin-top: 30px !important;
+    margin-top: 30px;
+
+  }
+
+
+}

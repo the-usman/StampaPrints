@@ -1,0 +1,63 @@
+.paragraphforourbox {
+    padding: 0px 100px;
+    font-weight: 300;
+}
+
+.Cardforourbocvrity {
+    /* height: 385px; */
+    border-radius: 10px;
+    background-color: #F6F6F6;
+    padding: 10px;
+    box-shadow: 0px 4.746958255767822px 7.8px rgba(58, 119, 108, 0.5);
+
+}
+
+.titleforourboxvrity {
+
+    font-size: 20px;
+    margin-bottom: 0px;
+    /* padding-bottom: 10px; */
+
+}
+
+.Cardbodyverity {
+    padding: 0px 5px;
+}
+
+.textforourcustom {
+
+    font-size: 11px;
+    width: 100%;
+
+}
+
+.wholeOurBoxVerity {
+    padding: 0px 0px;
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 500px) and (max-height: 812px) {
+    .paragraphforourbox {
+        padding: 0px 0px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .Cardforourbocvrity {
+        height: auto;
+        border-radius: 10px;
+        background-color: #F6F6F6;
+        padding: 10px;
+        box-shadow: 0px 4.746958255767822px 7.8px rgba(58, 119, 108, 0.5);
+
+    }
+
+    .Cardforourbocvrity img {
+        height: 300px;
+    }
+
+    .wholeOurBoxVerity {
+        margin-top: 30px;
+        padding: 0px 20px;
+    }
+}

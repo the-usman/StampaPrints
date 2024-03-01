@@ -1,0 +1,48 @@
+.wholetestimonial1 {
+    padding: 0px 50px;
+    margin-top: 80px;
+}
+
+.imagetrustpiolot img {
+    height: 30px;
+    width: 30px;
+}
+
+.imagetrustpiolot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.imagetrustpiolot p {
+    align-self: center;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 500px) and (max-height: 812px) {
+
+
+    .wholetestimonial1 {
+        padding: 0px 30px;
+        margin-top: 30px;
+
+    }
+
+    .testimonialformb {
+        display: contents;
+    }
+
+    .displayformobiletestimonial {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wholetestimonial1_1 {
+        display: flex;
+        justify-content: center;
+
+    }
+
+}

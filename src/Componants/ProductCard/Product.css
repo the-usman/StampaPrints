@@ -1,0 +1,110 @@
+.small-container {
+  max-width: 1000px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+
+.mainforpad {
+  padding: 20px;
+}
+
+.rowforthis {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.single-product {
+  margin-top: 80px;
+
+}
+
+.small-img-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col2rec img {
+  max-width: 90%;
+  padding: 0px 0px;
+
+
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+
+}
+
+.small-img-col img {
+  flex-basis: 24%;
+  cursor: pointer;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.single-product .col2rec img {
+  padding: 0;
+
+}
+
+.single-product .col2rec {
+  /* padding: 20px; */
+  /* height: 500px;                                                                          */
+}
+
+.formfororder {
+  border-radius: 15px;
+  background: #9bc194;
+  padding: 30px;
+}
+
+.tabcomdisc {
+  padding-left: 50px;
+}
+
+.ParagraphH2P11 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.form-control1::placeholder {
+  /* color: #ccc; */
+}
+
+@media screen and (max-width: 500px) and (max-height: 812px) {
+  .ParagraphH2P11 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .small-img-col img {
+    flex-basis: 24%;
+    cursor: pointer;
+    height: 80px;
+  }
+
+  .ParagraphH2P12 {
+    text-align: center;
+  }
+
+  .single-product {
+    margin-top: 0px;
+  }
+
+  /* .tabcomdisc {
+    padding-left: 0px;
+  } */
+
+  .formfororder {
+    padding: 15px 10px;
+  }
+
+  .col2rec img {
+    max-width: 90%;
+  }
+}

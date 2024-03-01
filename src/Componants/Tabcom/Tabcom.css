@@ -1,0 +1,157 @@
+.imgfortabcom img {
+    height: 300px;
+    /* text-align: start; */
+}
+
+.spacificationtabledata {
+    display: flex;
+    padding: 15px;
+    color: #28354C;
+    background-color: #f6f6f6;
+    margin: 0px 20px 20px 10px;
+    border-radius: 5px;
+}
+
+.spacificationtabledata1 {
+    display: flex;
+    padding: 15px;
+    color: #28354C;
+    background-color: #D7E6D4;
+    margin: 0px 20px 20px 10px;
+    border-radius: 5px;
+}
+
+
+.tabdataheading {
+    color: #15555F;
+    font-family: "Anek Gurmukhi";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.tabdataheadingtext {
+
+    color: #28354C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.custom-padding {
+    padding-right: 20px;
+    padding-left: 0px;
+    /* Adjust the pixel value as needed */
+}
+
+.styleforparagraphtab {
+    /* padding: 15px 70px 10px 15px; */
+}
+
+.longtext {
+    max-height: 0;
+    overflow: hidden;
+    display: inline-block;
+    transition: max-height 1s;
+}
+
+.expanded {
+    max-height: 50rem;
+    transition: max-height 2s;
+}
+
+.readmoredesign {
+    border: none;
+    color: white;
+    background: #98c194;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.forbigscreentabcom {
+    margin-top: 80px;
+    display: block;
+    /* Show on small screens */
+}
+
+.forsmallscreentabcom {
+    display: none;
+    /* Hide on small screens */
+}
+
+@media screen and (max-width: 500px) and (max-height: 812px) {
+    .forbigscreentabcom {
+        display: none;
+        /* Show on small screens */
+    }
+
+    .forsmallscreentabcom {
+        display: initial;
+        /* Hide on small screens */
+    }
+
+    .custom-padding {
+        padding-right: 10px;
+        padding-left: 10px;
+        /* Adjust the pixel value as needed */
+    }
+
+    .custom-padding1 {
+        padding: 20px !important;
+        /* padding-left: 10px !important; */
+        /* Adjust the pixel value as needed */
+    }
+
+    .styleforparagraphtab {
+        padding: 20px;
+    }
+
+    .tabcomdisc {
+        padding: 0px;
+
+    }
+
+    .tabdataheading {
+        color: #15555F;
+        font-family: "Anek Gurmukhi";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .tabdataheadingtext {
+
+        color: #28354C;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .spacificationtabledata1 {
+        display: flex;
+        padding: 15px;
+        font-size: 14px;
+        color: #28354C;
+        background-color: #D7E6D4;
+        margin: 0px 30px 20px 30px;
+        border-radius: 5px;
+    }
+
+    .spacificationtabledata {
+        display: flex;
+        padding: 15px;
+        font-size: 14px;
+        color: #28354C;
+        background-color: #f6f6f6;
+        margin: 0px 30px 20px 30px;
+        border-radius: 5px;
+    }
+}

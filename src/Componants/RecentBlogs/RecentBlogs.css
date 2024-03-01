@@ -1,0 +1,69 @@
+.cardforrecentblog img {
+    /* width: 320px;
+    height: 280px; */
+}
+
+.cardforrecentblogwhole {
+    padding: 0px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.cardtextwholeblog {
+    padding: 0px 50px 0px 20px;
+}
+
+.cardtextwholeblog h4 {
+    font-size: 20px;
+}
+
+.cardtextwholeblog h6 {
+    font-size: 14px;
+}
+
+.cardtextwholeblog1 {
+    align-self: center;
+}
+
+.wholeclassname {
+    padding: 50px 50px 50px 50px;
+}
+
+.cardforrecentblog1 img {
+    height: 90px;
+    width: auto;
+
+}
+
+.cardtextwholeblog2 h4 {
+    font-size: 14px;
+}
+
+.cardtextwholeblog2 {
+    padding: 0px 0px 0px 0px;
+}
+
+.fontsizepararecent {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 500px) {
+    .mainforrecentblog {
+        display: none;
+    }
+
+    .mainHeadingblog {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wholeclassname {
+        padding: 30px 30px 10px 30px;
+    }
+
+    .cardtextwholeblog {
+        padding: 20px 20px 0px 20px;
+    }
+
+}

@@ -1,0 +1,130 @@
+.small-container {
+  max-width: 1000px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+
+.mainforpad1 {
+  padding-left: 30px;
+}
+
+.rowforthis1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-right: 30px;
+
+}
+
+.single-product1 {
+  margin-top: 70px;
+  /* padding: 10px 40px 10px 40px; */
+}
+
+.small-img-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col2rec img {
+  max-width: 100%;
+  padding: 0px 0px;
+
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+.single-product1 .col2rec img {
+  padding: 0;
+}
+
+.single-product1 .col2rec {
+  /* padding: 20px; */
+}
+
+.formfororder1 {
+  border-radius: 15px;
+  background: #9bc194;
+  /* padding: 30px; */
+  padding: 25px 25px 20px 25px;
+
+}
+
+.formfororder1 input {
+  height: 35px;
+}
+
+.formfororder1 textarea {
+  height: 80px;
+}
+
+.tabcomdisc1 {
+  padding-left: 50px;
+}
+
+.ParagraphH2P11 {
+  font-size: 16px;
+}
+
+.form-control1::placeholder {
+  /* color: #ccc; */
+}
+
+@media screen and (max-width: 500px) and (max-height: 812px) {
+  .rowforthis1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 10px 30px 10px;
+
+  }
+
+  .mainforpad1 {
+    padding: 10px 10px;
+  }
+
+  .formfororder1 {
+    border-radius: 15px;
+    background: #9bc194;
+    /* padding: 30px; */
+    padding: 15px 10px 10px 10px;
+
+  }
+
+  .formfororder1 input {
+    height: 30px;
+  }
+
+  .formfororder1 textarea {
+    height: 80px;
+  }
+
+  .form-control1::placeholder {
+    /* color: #ccc; */
+    font-size: 10px;
+  }
+
+  .ParagraphH2P11 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .ParagraphH2P121 {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .single-product1 {
+    margin-top: 0px;
+  }
+
+  .formfororder {
+    padding: 15px 10px;
+  }
+}

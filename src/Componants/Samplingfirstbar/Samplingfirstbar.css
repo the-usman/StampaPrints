@@ -1,0 +1,25 @@
+.wholeSamplingfirstbar {
+    margin-top: 70px;
+    padding: 0px 50px;
+}
+
+.cardforSamplingfirstbar {
+    margin: 20px;
+}
+
+.cardforSamplingfirstbar img {
+
+    width: 28vw;
+}
+
+@media screen and (max-width: 500px) and (max-height: 812px) {
+    .wholeSamplingfirstbar {
+        margin-top: 30px;
+        padding: 0px 30px;
+    }
+
+    .cardforSamplingfirstbar img {
+
+        width: 68vw;
+    }
+}

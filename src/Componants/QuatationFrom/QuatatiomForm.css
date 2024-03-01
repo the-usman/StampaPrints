@@ -1,0 +1,187 @@
+.formforall {
+    /* background-color: rgba(255, 255, 255, 0.6); */
+    background-color: #9BC194;
+    padding: 20px 30px 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: -40px 20px 20px 20px;
+    /* backdrop-filter: blur(40px); */
+}
+
+.inputstyle {
+    border-radius: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+/* .inputstyletop {
+
+    width: 175px;
+} */
+
+.smallinput {
+    width: 8vw;
+}
+
+.meduiminput {
+    width: 13vw;
+}
+
+.meduiminput1 {
+    width: 9.5vw;
+}
+
+.ssmallinput {
+    width: 7vw;
+}
+
+.formmid {
+    display: flex;
+    justify-content: center;
+}
+
+.inputstyle::placeholder {
+    font-size: 14px;
+    /* font-family: "Anek Gurmukhi"; */
+}
+
+.qutationfromwhole {
+    width: 75%;
+    margin: 0px 160px;
+}
+
+.uploadfilequtation {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.uploadfilequtation p {
+    color: #15555F;
+    font-family: "poppins";
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.formforall h2 {
+    padding-bottom: 0px;
+    color: white;
+}
+
+.Button-QuatationFrom {
+    margin-top: 20px;
+}
+
+.inputstyle1 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.qutationfromwholesmall {
+    display: none !important;
+}
+
+.qutationfromwhole {
+    display: block;
+}
+
+.UploadSample {
+    color: #15555F;
+    font-family: "poppins";
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 500px) and (max-height: 812px) {
+    .formforall {
+        /* background-color: rgba(255, 255, 255, 0.6); */
+        background-color: #9BC194;
+        padding: 10px 10px 10px 10px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: 30px 20px 20px 20px;
+        /* backdrop-filter: blur(40px); */
+    }
+
+    .qutationfromwholesmall {
+        display: block !important;
+    }
+
+    .qutationfromwhole {
+        display: none !important;
+    }
+
+    .inputstyle {
+        border-radius: 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: white;
+        margin-top: 10px !important;
+        height: 30px;
+
+    }
+
+    .inputstyle1 {
+        margin-top: 10px;
+        display: block;
+        height: 30px;
+    }
+
+    .Button-QuatationFrom {
+        margin-top: 10px;
+        font-size: 14px;
+
+    }
+
+    .inputstyle::placeholder {
+        font-size: 10px;
+        /* font-family: "Anek Gurmukhi"; */
+    }
+
+    .smallinput {
+        width: 20vw;
+    }
+
+    .meduiminput {
+        width: 17.5vw;
+    }
+
+    .meduiminput1 {
+        width: 9.5vw;
+    }
+
+    .ssmallinput {
+        width: 16.2vw;
+    }
+
+    .smallinput1 {
+        width: 14vw;
+    }
+
+    .inputstyle option {
+        font-size: 10px;
+    }
+
+    .UploadSample {
+        color: #15555F;
+        font-family: "poppins";
+        font-size: 10px;
+    }
+
+    .uploadfilequtation p {
+        color: #15555F;
+        font-family: "poppins";
+        font-size: 10px;
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+    }
+}

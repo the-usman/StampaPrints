@@ -1,0 +1,116 @@
+.headingforspaci {
+    color: #15555F;
+    font-family: "Anek Gurmukhi";
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.contantforspecip {
+    color: #28354C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 30px 80px 30px 80px;
+}
+
+.contantforspecip1 {
+    color: #28354C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    /* padding: 30px 65px 30px 65px; */
+}
+
+.contantforspeciimg img {
+    height: 460px;
+}
+
+.elemrnt2cfs {
+    padding: 0px;
+}
+
+.imgidealcfs img {
+    height: 300px;
+
+}
+
+.textcolorheadcfs {
+    color: #15555F;
+    font-family: "Anek Gurmukhi";
+    font-size: 32px;
+    font-weight: 500;
+    /* text-align: center; */
+}
+
+.mainidealblog {
+    margin-top: 70px;
+    /* padding: 0px 50px; */
+}
+
+@media screen and (max-width: 500px) {
+    .mainidealblog {
+        margin-top: 30px;
+        padding: 0px 30px 0px 30px;
+    }
+
+    .contantforspeciimg img {
+        height: 200px;
+        width: 90vw;
+    }
+
+    .textcolorheadcfs {
+        color: #15555F;
+        font-family: "Anek Gurmukhi";
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .headingforspaci {
+        color: #15555F;
+        font-family: "Anek Gurmukhi";
+        font-size: 22px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .contantforspecip {
+        color: #28354C;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        padding: 30px 30px 0px 30px;
+    }
+
+    .contantforspecip1 {
+        color: #28354C;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        /* padding: 20px 30px 30px 30px; */
+    }
+
+    .contantforspecipallq {
+        padding: 0px;
+    }
+
+    .elemrnt11 {
+        order: 2;
+    }
+
+    .elemrnt21 {
+        order: 1;
+    }
+
+    .imgidealcfs img {
+        height: 300px;
+    }
+}

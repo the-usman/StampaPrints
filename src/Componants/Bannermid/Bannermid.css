@@ -1,0 +1,103 @@
+.cardrang {
+   background-color: #F6F6F6;
+   border-radius: 10px;
+   padding: 8px;
+   border: none;
+   box-shadow: 0 4px 10px rgb(58, 119, 108, 0.25);
+
+
+}
+
+.cardhovertext:hover {
+   color: #467558;
+   transition: 1s ease;
+   cursor: pointer;
+}
+
+.cardtextdown {
+   font-size: 18px;
+   color: #15555f;
+   text-align: center;
+   font-family: "Poppins";
+   font-weight: 500;
+   line-height: normal;
+
+}
+
+.headingformid1 {
+   color: #15555F;
+   font-family: "Anek Gurmukhi";
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin: 80px 0px 0px 0px;
+   text-align: center;
+}
+
+.heading1formid {
+   color: #7B7B7B;
+   text-align: center;
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+
+   line-height: normal;
+   padding: 0px 150px 30px 150px !important;
+}
+
+.headingformidall {
+   /* margin-top: 80px; */
+   padding: 0px 50px;
+}
+
+@media screen and (max-width: 500px) and (max-height: 812px) {
+   .headingformidall {
+      /* margin-top: 30px;  */
+      padding: 0px 30px;
+   }
+
+   .mainHeadingH2 {
+      color: #15555f;
+      font-family: 'Anek Gurmukhi';
+      font-weight: 500;
+      font-size: 22px;
+   }
+
+   .headingformid1 {
+      color: #15555F;
+      font-family: Poppins;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: normal;
+      padding: 10px 10px 5px 10px;
+      text-align: center;
+      margin: 30px 0px 0px 0px;
+   }
+
+   .bannarmidclass {
+      padding: 30px;
+   }
+
+   .heading1formid {
+      color: #7B7B7B;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 12px;
+      font-style: normal;
+
+      line-height: normal;
+      padding: 0px 30px 0px 30px !important;
+      text-align: center;
+   }
+
+   .cardtextdown {
+      font-size: 18px;
+
+
+   }
+
+   .cardbodypadding {
+      padding: 10px;
+   }
+}

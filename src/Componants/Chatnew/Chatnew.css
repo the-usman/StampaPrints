@@ -1,0 +1,193 @@
+.wholechatcomponantnew {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./cta 5.png");
+    width: 70vw;
+    height: 300px;
+    border-radius: 10px;
+    padding: 0px 150px;
+}
+
+.wholechatnewh4 {
+    color: white;
+    font-family: 'Anek Gurmukhi';
+    font-weight: 500;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.wholechatnewhp {
+    text-align: center;
+    color: #28354C;
+    font-size: 16px;
+}
+
+.buttonsearchnewchat {
+    width: 450px;
+    position: relative;
+    margin: 5px;
+    border-radius: 12px;
+    /* border: 1px solid #38483E; */
+}
+
+.textboxchatnew {
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+    outline: none;
+    height: 56px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    border-radius: 10px !important;
+}
+
+.letsnewchatbutton {
+    position: absolute;
+    right: 15px;
+    z-index: 2;
+    border: none;
+    top: 8px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    background: #3A776C;
+    transform: translateX(2px);
+    display: inline-flex;
+    height: 40px;
+    padding: 5px 10px;
+    align-items: center;
+    gap: 3px;
+    flex-shrink: 0;
+}
+
+.imgesizechat {
+    height: 336px;
+}
+
+.wholechatnew {
+    margin-top: 80px;
+    padding: 0px 50px;
+}
+
+@media screen and (max-width: 500px) and (max-height: 812px) {
+
+
+    .wholechatnew {
+        margin-top: 30px;
+        padding: 0px 40px;
+    }
+
+    .wholechatcomponantnew {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url("./cta 5.png");
+        width: 90vw;
+        height: 300px;
+        border-radius: 10px;
+        padding: 0px 20px;
+    }
+
+    .wholechatnewh4 {
+        color: white;
+        font-family: 'Anek Gurmukhi';
+        font-weight: 500;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .wholechatnewhp {
+        text-align: center;
+        color: #28354C;
+        font-size: 14px;
+    }
+
+    .buttonsearchnewchat {
+        width: 320px;
+        position: relative;
+        margin: 5px;
+        border-radius: 12px;
+        /* border: 1px solid #38483E; */
+    }
+
+    .textboxchatnew {
+        margin: 0px;
+        padding: 20px;
+        width: 100%;
+        outline: none;
+        height: 50px;
+        border-radius: 5px 5px 5px 5px;
+        border: none;
+        border-radius: 10px !important;
+        /* margin-left: 20px; */
+    }
+
+    .letsnewchatbutton {
+        position: absolute;
+        right: 15px;
+        z-index: 2;
+        border: none;
+        top: 5px;
+        cursor: pointer;
+        color: white;
+        border-radius: 5px 5px 5px 5px;
+        background: #3A776C;
+        transform: translateX(2px);
+        display: inline-flex;
+        height: 40px;
+        padding: 5px 10px;
+        align-items: center;
+        gap: 3px;
+        flex-shrink: 0;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 390px) and (max-height: 812px) {
+    .textboxchatnew {
+        margin: 0px;
+        padding: 20px;
+        width: 88%;
+        outline: none;
+        height: 45px;
+        border-radius: 5px 5px 5px 5px;
+        border: none;
+        border-radius: 10px !important;
+        margin-left: 20px;
+    }
+
+    .letsnewchatbutton {
+        position: absolute;
+        right: 25px;
+        z-index: 2;
+        border: none;
+        top: 8px;
+        cursor: pointer;
+        color: white;
+        border-radius: 5px 5px 5px 5px;
+        background: #3A776C;
+        transform: translateX(2px);
+        display: inline-flex;
+        height: 30px;
+        padding: 5px 10px;
+        align-items: center;
+        gap: 3px;
+        flex-shrink: 0;
+        font-size: 11px;
+    }
+
+    .textboxchatnew::placeholder {
+        font-size: 13px;
+    }
+
+}
